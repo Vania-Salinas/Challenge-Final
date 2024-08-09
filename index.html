@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Challenge Alura Latam</title>
+</head>
+<body>
+    <header>
+        <img class="Logo" src="./Imagenes/Logo.png" alt="Logo de Alura">
+    </header>
+    
+    <main>
+        <section>
+            <textarea class="Text-Area" rows="10" cols="50" placeholder="Ingrese el texto aquí"></textarea>
+            <div>
+                <h6 class="Informacion">Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="Botones">
+                <button class="Boton-Encriptar" onclick = "botonEncriptar()">Encriptar</button>
+                <button class="Boton-Desencriptar" onclick = "botonDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="Resultado" rows="10" cols="50" readonly=""></textarea>
+            <div class="Botones">
+                <button class="Boton-Copiar" onclick="botonCopiar()">Copiar</button>
+                <button class="Boton-Pegar" onclick="botonPegar()">Pegar</button>
+            </div>
+        </section>
+    </main>
+    <footer class="Footer">
+        Desarrollado por Vania Salinas
+    </footer>
+</body>
+<script src="app.js"></script>
+</html>
